@@ -21,7 +21,6 @@ public class Clock extends JFrame implements MouseListener {
     String date;
     String day;
 
-
     Clock() {
         this.setTitle("Clock");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -106,7 +105,6 @@ public class Clock extends JFrame implements MouseListener {
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
 
     }
 
